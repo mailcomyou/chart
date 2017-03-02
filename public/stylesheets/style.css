@@ -14,11 +14,11 @@ a {
 
 .leftBlock {
   float: left;
-  width: 100px;
+  width: 110px;
 }
 
 .rightBlock {
-  margin-left: 110px;
+  margin-left: 150px;
 }
 
 .selectDate {
