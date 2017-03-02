@@ -1,0 +1,34 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+#myCanvas {
+  border: 1px solid red;
+}
+
+.leftBlock {
+  float: left;
+  width: 100px;
+}
+
+.rightBlock {
+  margin-left: 110px;
+}
+
+.selectDate {
+  width: 180px;
+}
+
+#cleanDB {
+  margin-top: 150px;
+}
+
+.parts.active {
+  font-weight: bold;
+}

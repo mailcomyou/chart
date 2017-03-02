@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+  h1 Архив метеослужбы
+
+  div(class='leftBlock')
+    button(id="temps", class="parts active", value="temperature") Температура
+    br
+    button(id="prescp", class="parts", value="precipitation") Осадки
+    br
+    button(id="cleanDB", class="parts", value="precipitation") Очистить БД
+
+
+  div(class='rightBlock')
+    div
+      select(id="yearbegin", class="selectDate")
+      select(id="yearend", class="selectDate")
+
+    canvas(id="myCanvas", width="400", height="400")
+  script(src="/javascripts/index.js")
